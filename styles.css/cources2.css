@@ -1,0 +1,821 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper2 {
+  width: 100%;
+  background-color: #fde1d9;
+  padding: 40px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar__logo {
+  width: 130px;
+  height: 22px;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar__link,
+.navbar__link2 {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #424551;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar__link2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.navbar__link:hover,
+.navbar__link2:hover {
+  color: #fa4a0c;
+}
+
+.header-actions {
+  color: #fde1d9;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-consultation {
+  background: linear-gradient(90deg, #ff5722, #ff7043);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  box-shadow: 0 3px 5px rgba(255, 87, 34, 0.4);
+}
+
+.btn-consultation:hover {
+  background: linear-gradient(90deg, #ff7043, #ff5722);
+}
+.btn-consultation:active {
+  background: linear-gradient(90deg, #f73a00, #ff3c00);
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+}
+
+.login svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.header_span {
+  font-family: "Lato";
+  font-size: 14px;
+  color: #444;
+}
+
+.navbar_subtitle {
+  /* course */
+
+  /* h6
+
+subheading
+*/
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* primary */
+  color: #ff3f3a;
+}
+
+.navbar_title {
+  width: 1020px;
+
+  /* h1 */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* or 60px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* gray/900 */
+  color: #1e212c;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.course-description {
+  flex: 1 1 60%;
+  max-width: 60%;
+  padding: 20px 0;
+}
+
+.course-description h2 {
+  /* About the course */
+
+  /* h1 */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+
+  /* gray/900 */
+  color: #1e212c;
+
+  margin-bottom: 20px;
+}
+.course_title {
+  width: 600px;
+  height: 156px;
+
+  /* base/regular
+
+main body text
+*/
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/800 */
+  color: #424551;
+}
+.course-description h3 {
+  margin-top: 30px;
+  /* You will learn: */
+
+  /* h3 */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 42px */
+
+  /* gray/900 */
+  color: #1e212c;
+}
+
+.features-list {
+  margin-top: 10px;
+  /* A fermentum in morbi pretium aliquam adipiscing donec tempus. */
+
+  /* base/regular
+
+main body text
+*/
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* gray/800 */
+  color: #424551;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.features-list li {
+  padding-left: 30px; /* место под иконку */
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon-check {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  flex-shrink: 0;
+  background-image: url("/Img/completed.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.course-info {
+  flex: 1 1 30%;
+  max-width: 340px;
+  background-color: #fff;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.info-block {
+  margin-bottom: 24px;
+}
+
+.info-title {
+  /* Dates */
+
+  width: 47px;
+  height: 21px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+
+  /* gray/900 */
+  color: #1e212c;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.highlight {
+  /* Sept 7 – Nov 2 */
+
+  /* h4 */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  /* primary */
+  color: #ff3f3a;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin-bottom: 4px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.enroll-btn {
+  background: linear-gradient(90deg, #ff5722, #ff7043);
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  box-shadow: 0 3px 5px rgba(255, 87, 34, 0.4);
+}
+
+.enroll-btn:hover {
+  background: linear-gradient(90deg, #ff7043, #ff5722);
+}
+.enroll-btn:active {
+  background: linear-gradient(90deg, #f73a00, #ff3c00);
+  transition: background 0.3s;
+}
+
+.course_title2 {
+  /* Rhoncus pellentesque auctor auctor orci vulputate faucibus quis ut. */
+
+  /* base/regular
+
+main body text
+*/
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/700 */
+  color: #787a80;
+
+  /* Inside auto layout */
+}
+
+.profile-container {
+  display: flex;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: auto;
+}
+
+.image-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 300px;
+  max-width: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 340px;
+}
+
+.info-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.name {
+  /* Cody Fisher */
+
+  /* h1 */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  /* identical to box height, or 60px */
+
+  /* gray/900 */
+  color: #1e212c;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.title {
+  margin: 8px 0 16px;
+  /* Senior UX designer in IT Product Company */
+
+  /* lead/regular */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* gray/700 */
+  color: #787a80;
+}
+
+.stats {
+  display: block;
+
+  margin-bottom: 20px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.description {
+
+  width: 400px;
+
+  /* base/regular
+
+main body text
+*/
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* gray/800 */
+  color: #424551;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  color: #555;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #bbb;
+}
+
+.info_subtitle {
+  /* Course curator */
+
+  /* h6
+
+subheading
+*/
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* gray/900 */
+  color: #1e212c;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.label {
+  /* 4.9 rate */
+
+  /* base/bold */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  display: flex;
+  align-items: center;
+
+  /* gray/800 */
+  color: #424551;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 40px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  fill: #777;
+  transition: fill 0.3s,;
+  cursor: pointer;
+  display: inline-block; 
+}
+
+
+
+.icon.facebook:hover {
+  fill: #ff0000;
+}
+
+.icon.behance:hover {
+  fill: #ff0000;
+}
+.icon.behance{
+  margin-top: 7px;
+}
+
+.icon.twitter:hover {
+  fill: #ff0000;
+}
+
+.icon.linkedin:hover {
+  fill: #f44336;
+}
+
+
+
+
+h2, h3 {
+  margin: 0;
+}
+
+/* Section: Steps */
+.steps {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.steps-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.steps-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.step {
+  max-width: 220px;
+}
+
+.step-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ccc;
+  margin-bottom: 10px;
+  
+}
+
+.step-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.step-text {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Highlighted step */
+.step.active .step-number {
+  color: #fff;
+  background-color: #ffede9;
+  border-radius: 50%;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.step.active .step-number::after {
+  background-color: #ffede9;
+  border-radius: 50%;
+
+}
+
+/* Section: Early bird */
+.early-bird {
+  background: #ffe6dc;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.early-bird-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.early-text h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.early-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.early-form input {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+/* Timer */
+.early-timer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.timer-item {
+  text-align: center;
+}
+
+.timer-item strong {
+  display: block;
+  font-size: 20px;
+}
+
+.timer-item span {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Button */
+.cta-button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e6491c;
+}
+
+
+
+
+
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  max-width: 1460px;
+  margin: auto;
+  flex-wrap: wrap;
+  background-color: #fde1d9;;
+}
+
+.content {
+  max-width: 600px;
+}
+
+h1 {
+  color: #1e1e1e;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1 1 30%;
+  min-width: 200px;
+}
+
+.form button {
+  background-color: #f34a2b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #d63d21;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.countdown div {
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.countdown span {
+  font-size: 24px;
+  display: block;
+}
+
+.countdown small {
+  font-size: 12px;
+  color: #777;
+}
